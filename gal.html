@@ -1,0 +1,235 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://wallpapercave.com/wp/wp8551782.jpg');
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            text-align: right;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            background-color: #ccc;
+            color: green;
+        }
+
+        .navbar a.golden {
+            color: #FFD700;
+        }
+
+        h1 {
+            color: #FFD700;
+            font-family: 'papyrus', fantasy;
+            font-size: 60px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #FFD700;
+            font-family: 'Pacifico', cursive;
+            font-size: 50px;
+        }
+
+        p {
+            color: #FFD700;
+            font-family: 'papyrus', fantasy;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        pre {
+            color: white;
+            font-size: 21px;
+        }
+
+        figure {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        img {
+            text-align: center;
+            border: 10px solid #33cccc;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        .services-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .providing {
+            color: white;
+            font-family: 'papyrus', fantasy;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .best-services {
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .image-gallery-heading {
+            text-align: center;
+            color: #FFD700;
+            font-family: 'Pacifico', cursive;
+            font-size: 30px;
+            margin: 20px 0;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .image-gallery img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 30px 0;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        .footer a:hover {
+            color: #ffcc00;
+        }
+    </style>
+    <title>List with Custom Bullets</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="golden">Image Gallery</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Change Theme</a>
+    </nav>
+
+    <section>
+        <h1><i>Welcome viewers!</i></h1>
+        <p><i><b><u>^^^^^saidutta Themes gallery presents^^^^^</u></b></i></p>
+        <pre><b>
+     Dive into the immersive realm of themes
+       Navigate with ease of a click
+     *Get... Set... Going*</b> </pre>
+        <div class="services-container">
+            <p class="providing">providing</p>
+            <p class="best-services">Best services</p>
+        </div>
+        <figure>
+            <img src="https://tse2.mm.bing.net/th/id/OIP.Hw9DRVewTBLFF11kEtxvIwHaJQ?rs=1&pid=ImgDetMain.jpg"
+                alt="OFFICE theme">
+        </figure>
+    </section>
+
+    <section>
+        <h2><u>The image gallery</u></h2>
+        <div class="image-gallery-heading">Image Gallery</div>
+        <div class="image-gallery">
+            <img src="https://i.pinimg.com/originals/bd/0e/75/bd0e75ef0420c7ce5c6500dac8887d91.jpg" alt="Image 1">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.eDROArWYkpOv2d6EVBAW8gHaFj?rs=1&pid=ImgDetMain" alt="Image 2">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.SKZRNjqAZIojEFH8Q-zGuQHaE7?rs=1&pid=ImgDetMain" alt="Image 3">
+            <img src="https://images.squarespace-cdn.com/content/v1/5aa075a3c3c16aa2cb7f541b/1586295753306-MILJP2E119XTLBPIESZS/phillipvn-132.jpg"
+                alt="Image 4">
+            <img src="https://i0.wp.com/pingpongbros.com/wp-content/uploads/2019/11/Design-14-1950s-Classic.png?resize=1024%2C745"
+                alt="Image 5">
+            <img src="https://homebnc.com/homeimg/2016/02/06-the-unfiished-dream-modern-kitchen-homebnc.jpg" alt="Image 6">
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2023 Saidutta Themes Gallery. All rights reserved.</p>
+        <p>Designed by <a href="https://www.chooseyourtheme.com" target="_blank">Choose Your Theme Company</a></p>
+        <p><a href="#">Sign Up</a></p>
+        <p>
+            <a href="#">Terms & Conditions</a> |
+            <a href="#">About Us</a> |
+            <a href="#">Terms of Services</a> |
+            <a href="#">Refund Policy</a> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Contact</a> |
+            <a href="#">Plan & Pricing</a> |
+            <a href="#">Business Pricing</a>
+        </p>
+        <p>
+            <a href="#">Basic Plan</a> |
+            <a href="#">Classic Plan</a> |
+            <a href="#">Premium Plan</a>
+        </p>
+    </div>
+</body>
+
+</html>
+
+
+
+
+git add main.c
+git commit -m ""
+git push origin main
+
